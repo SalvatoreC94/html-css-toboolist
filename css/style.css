@@ -81,21 +81,21 @@ button {
     border: 1px solid lightgrey;
 }
 
-.task-button {
+.task {
     background-color: #03a9f4;
     color: white;
 }
 
-.section-button {
+.section {
     background-color: white;
     color: lightgrey;
 }
 
 
 /* Task */
-.list-new-task,
-.list-today-task,
-.list-upcoming-task {
+.new-task,
+.today-task,
+.upcoming-task {
     padding: 10px 50px;
 }
 
@@ -107,14 +107,13 @@ li {
     padding-bottom: 15px;
 }
 
-.task-status {
+.status {
     display: inline-block;
     width: 16px;
     height: 16px;
     border: 1px solid;
     border-radius: 50%;
     font-size: x-small;
-
     text-align: center;
     margin-right: 5px;
 }
